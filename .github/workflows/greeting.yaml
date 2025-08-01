@@ -1,0 +1,10 @@
+name: Github Actions Tutorial - Greeting
+
+on: [push]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - run: ls -a
+      - run: pwd
